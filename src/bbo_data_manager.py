@@ -1,5 +1,5 @@
 
-mport numpy as np
+import numpy as np
 import re
 from pathlib import Path
 
