@@ -1,0 +1,61 @@
+{
+  "round_id": "week_06",
+  "function_id": 6,
+  "n_rows": 25,
+  "dimension": 5,
+  "bounds": "[0,1]^d",
+  "weekly_submission_point": "[0.184689, 0.006677, 0.964657, 0.960255, 0.014516]",
+  "best_ensemble_ei": 0.0007745505799480498,
+  "best_mu_model": -0.9054507421114707,
+  "best_mu_original_approx": -0.9054507421114707,
+  "config": {
+    "bootstrap_runs": 100,
+    "bootstrap_sample_size": null,
+    "seed": 0,
+    "y_scale": 1.0,
+    "kernel": "matern",
+    "matern_nu": 1.5,
+    "auto_ls": true,
+    "normalize_y": true,
+    "n_restarts": 10,
+    "xi": 0.5,
+    "alpha": 1e-06,
+    "auto_y_transform": true,
+    "y_ratio_threshold": 1000.0,
+    "suppress_gp_warnings": true,
+    "global_n": 262144,
+    "global_sampler": "sobol",
+    "strict_sobol": false,
+    "top_n": 1000
+  },
+  "model_settings": {
+    "bootstrap_runs": 100,
+    "bootstrap_sample_size": 25,
+    "seed": 600,
+    "kernel": "matern",
+    "matern_nu": 1.5,
+    "length_init": "auto(vec)",
+    "length_bounds": [
+      0.01524337194867957,
+      6.097348779471828
+    ],
+    "normalize_y": true,
+    "n_restarts": 10,
+    "alpha": 1e-06,
+    "xi": 0.5,
+    "global_n": 262144,
+    "global_sampler": "sobol",
+    "strict_sobol": false,
+    "top_n": 1000,
+    "y_transform": "none",
+    "y_transform_scale": 1.0,
+    "y_dynamic_range_ratio": 7.326061518157728
+  },
+  "paths": {
+    "query": "/content/Capstone-project-AI-ML-for-improving-policy-development/queries/week_06_function_6_query.csv",
+    "global_scores": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_06_function_6_global_scores.csv",
+    "top_by_ei": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_06_function_6_top_by_ei.csv",
+    "top_by_mu": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_06_function_6_top_by_mu.csv",
+    "plot": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/plots/week_06_function_6_histogram.png"
+  }
+}
