@@ -1,0 +1,61 @@
+{
+  "round_id": "week_03",
+  "function_id": 8,
+  "n_rows": 43,
+  "dimension": 8,
+  "bounds": "[0,1]^d",
+  "weekly_submission_point": "[0.034587, 0.153034, 0.018599, 0.204433, 0.861862, 0.232588, 0.011186, 0.960580]",
+  "best_ensemble_ei": 0.06644713204375621,
+  "best_mu_model": 9.731225109204836,
+  "best_mu_original_approx": 9.731225109204836,
+  "config": {
+    "bootstrap_runs": 100,
+    "bootstrap_sample_size": null,
+    "seed": 0,
+    "y_scale": 1.0,
+    "kernel": "matern",
+    "matern_nu": 1.5,
+    "auto_ls": true,
+    "normalize_y": true,
+    "n_restarts": 10,
+    "xi": 0.0,
+    "alpha": 1e-06,
+    "auto_y_transform": true,
+    "y_ratio_threshold": 1000.0,
+    "suppress_gp_warnings": true,
+    "global_n": 65536,
+    "global_sampler": "sobol",
+    "strict_sobol": false,
+    "top_n": 1000
+  },
+  "model_settings": {
+    "bootstrap_runs": 100,
+    "bootstrap_sample_size": 43,
+    "seed": 800,
+    "kernel": "matern",
+    "matern_nu": 1.5,
+    "length_init": "auto(vec)",
+    "length_bounds": [
+      0.014141039262222228,
+      5.656415704888891
+    ],
+    "normalize_y": true,
+    "n_restarts": 10,
+    "alpha": 1e-06,
+    "xi": 0.0,
+    "global_n": 65536,
+    "global_sampler": "sobol",
+    "strict_sobol": false,
+    "top_n": 1000,
+    "y_transform": "none",
+    "y_transform_scale": 1.0,
+    "y_dynamic_range_ratio": 1.5143641467786224
+  },
+  "paths": {
+    "query": "/content/Capstone-project-AI-ML-for-improving-policy-development/queries/week_03_function_8_query.csv",
+    "global_scores": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_03_function_8_global_scores.csv",
+    "top_by_ei": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_03_function_8_top_by_ei.csv",
+    "top_by_mu": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_03_function_8_top_by_mu.csv",
+    "plot": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/plots/week_03_function_8_histogram.png"
+  }
+}

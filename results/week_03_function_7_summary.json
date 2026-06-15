@@ -1,0 +1,61 @@
+{
+  "round_id": "week_03",
+  "function_id": 7,
+  "n_rows": 33,
+  "dimension": 6,
+  "bounds": "[0,1]^d",
+  "weekly_submission_point": "[0.029513, 0.935894, 0.366031, 0.053045, 0.414517, 0.720311]",
+  "best_ensemble_ei": 0.020049456437501948,
+  "best_mu_model": 1.1203207938158326,
+  "best_mu_original_approx": 1.1203207938158326,
+  "config": {
+    "bootstrap_runs": 100,
+    "bootstrap_sample_size": null,
+    "seed": 0,
+    "y_scale": 1.0,
+    "kernel": "matern",
+    "matern_nu": 1.5,
+    "auto_ls": true,
+    "normalize_y": true,
+    "n_restarts": 10,
+    "xi": 0.0,
+    "alpha": 1e-06,
+    "auto_y_transform": true,
+    "y_ratio_threshold": 1000.0,
+    "suppress_gp_warnings": true,
+    "global_n": 65536,
+    "global_sampler": "sobol",
+    "strict_sobol": false,
+    "top_n": 1000
+  },
+  "model_settings": {
+    "bootstrap_runs": 100,
+    "bootstrap_sample_size": 33,
+    "seed": 700,
+    "kernel": "matern",
+    "matern_nu": 1.5,
+    "length_init": "auto(vec)",
+    "length_bounds": [
+      0.015099453039333802,
+      6.0397812157335204
+    ],
+    "normalize_y": true,
+    "n_restarts": 10,
+    "alpha": 1e-06,
+    "xi": 0.0,
+    "global_n": 65536,
+    "global_sampler": "sobol",
+    "strict_sobol": false,
+    "top_n": 1000,
+    "y_transform": "none",
+    "y_transform_scale": 1.0,
+    "y_dynamic_range_ratio": 365.7244444953828
+  },
+  "paths": {
+    "query": "/content/Capstone-project-AI-ML-for-improving-policy-development/queries/week_03_function_7_query.csv",
+    "global_scores": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_03_function_7_global_scores.csv",
+    "top_by_ei": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_03_function_7_top_by_ei.csv",
+    "top_by_mu": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_03_function_7_top_by_mu.csv",
+    "plot": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/plots/week_03_function_7_histogram.png"
+  }
+}
