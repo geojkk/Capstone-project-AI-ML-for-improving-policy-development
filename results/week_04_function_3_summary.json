@@ -1,0 +1,61 @@
+{
+  "round_id": "week_04",
+  "function_id": 3,
+  "n_rows": 19,
+  "dimension": 3,
+  "bounds": "[0,1]^d",
+  "weekly_submission_point": "[0.924014, 0.581039, 0.388710]",
+  "best_ensemble_ei": 0.006932532969714094,
+  "best_mu_model": -0.030142031059825873,
+  "best_mu_original_approx": -0.030142031059825873,
+  "config": {
+    "bootstrap_runs": 100,
+    "bootstrap_sample_size": null,
+    "seed": 0,
+    "y_scale": 1.0,
+    "kernel": "matern",
+    "matern_nu": 1.5,
+    "auto_ls": true,
+    "normalize_y": true,
+    "n_restarts": 10,
+    "xi": 0.0,
+    "alpha": 1e-06,
+    "auto_y_transform": true,
+    "y_ratio_threshold": 1000.0,
+    "suppress_gp_warnings": true,
+    "global_n": 65536,
+    "global_sampler": "sobol",
+    "strict_sobol": false,
+    "top_n": 1000
+  },
+  "model_settings": {
+    "bootstrap_runs": 100,
+    "bootstrap_sample_size": 19,
+    "seed": 300,
+    "kernel": "matern",
+    "matern_nu": 1.5,
+    "length_init": "auto(vec)",
+    "length_bounds": [
+      0.014998978232977423,
+      5.999591293190969
+    ],
+    "normalize_y": true,
+    "n_restarts": 10,
+    "alpha": 1e-06,
+    "xi": 0.0,
+    "global_n": 65536,
+    "global_sampler": "sobol",
+    "strict_sobol": false,
+    "top_n": 1000,
+    "y_transform": "none",
+    "y_transform_scale": 1.0,
+    "y_dynamic_range_ratio": 5.8990793401525075
+  },
+  "paths": {
+    "query": "/content/Capstone-project-AI-ML-for-improving-policy-development/queries/week_04_function_3_query.csv",
+    "global_scores": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_04_function_3_global_scores.csv",
+    "top_by_ei": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_04_function_3_top_by_ei.csv",
+    "top_by_mu": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_04_function_3_top_by_mu.csv",
+    "plot": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/plots/week_04_function_3_histogram.png"
+  }
+}
