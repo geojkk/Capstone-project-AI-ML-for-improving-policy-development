@@ -1,7 +1,5 @@
 # Black-Box Optimisation (BBO) Capstone Project
 
-## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
-
 This project explores how to find the best solutions to problems where the underlying system is unknown. Instead of having access to equations or rules that describe how a system behaves, I can only submit inputs and observe the resulting output. The goal is to learn from previous observations and make increasingly better decisions about what to test next.
 
 This type of optimisation is common in real-world machine learning, where experiments can be time-consuming or expensive. Examples include tuning AI models, improving system performance and optimising engineering processes. Throughout the project, I used statistical models to balance experimentation with refinement, gradually improving results while learning more about the underlying search space.
