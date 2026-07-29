@@ -1,0 +1,61 @@
+{
+  "round_id": "week_07",
+  "function_id": 4,
+  "n_rows": 36,
+  "dimension": 4,
+  "bounds": "[0,1]^d",
+  "weekly_submission_point": "[0.397196, 0.394865, 0.425863, 0.473268]",
+  "best_ensemble_ei": 0.0801752311864071,
+  "best_mu_model": -0.6154407740625907,
+  "best_mu_original_approx": -0.6154407740625907,
+  "config": {
+    "bootstrap_runs": 100,
+    "bootstrap_sample_size": null,
+    "seed": 0,
+    "y_scale": 1.0,
+    "kernel": "matern",
+    "matern_nu": 1.5,
+    "auto_ls": true,
+    "normalize_y": true,
+    "n_restarts": 10,
+    "xi": 0.5,
+    "alpha": 1e-06,
+    "auto_y_transform": true,
+    "y_ratio_threshold": 1000.0,
+    "suppress_gp_warnings": true,
+    "global_n": 262144,
+    "global_sampler": "sobol",
+    "strict_sobol": false,
+    "top_n": 1000
+  },
+  "model_settings": {
+    "bootstrap_runs": 100,
+    "bootstrap_sample_size": 36,
+    "seed": 400,
+    "kernel": "matern",
+    "matern_nu": 1.5,
+    "length_init": "auto(vec)",
+    "length_bounds": [
+      0.013473150483262215,
+      5.389260193304885
+    ],
+    "normalize_y": true,
+    "n_restarts": 10,
+    "alpha": 1e-06,
+    "xi": 0.5,
+    "global_n": 262144,
+    "global_sampler": "sobol",
+    "strict_sobol": false,
+    "top_n": 1000,
+    "y_transform": "none",
+    "y_transform_scale": 1.0,
+    "y_dynamic_range_ratio": 57.903819633342216
+  },
+  "paths": {
+    "query": "/content/Capstone-project-AI-ML-for-improving-policy-development/queries/week_07_function_4_query.csv",
+    "global_scores": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_07_function_4_global_scores.csv",
+    "top_by_ei": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_07_function_4_top_by_ei.csv",
+    "top_by_mu": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_07_function_4_top_by_mu.csv",
+    "plot": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/plots/week_07_function_4_histogram.png"
+  }
+}

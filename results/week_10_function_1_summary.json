@@ -1,0 +1,61 @@
+{
+  "round_id": "week_10",
+  "function_id": 1,
+  "n_rows": 19,
+  "dimension": 2,
+  "bounds": "[0,1]^d",
+  "weekly_submission_point": "[0.459339, 0.039741]",
+  "best_ensemble_ei": 0.05704315941301835,
+  "best_mu_model": -0.07308380424362125,
+  "best_mu_original_approx": -5.8901127396851475e-05,
+  "config": {
+    "bootstrap_runs": 100,
+    "bootstrap_sample_size": null,
+    "seed": 0,
+    "y_scale": 1.0,
+    "kernel": "matern",
+    "matern_nu": 1.5,
+    "auto_ls": true,
+    "normalize_y": true,
+    "n_restarts": 10,
+    "xi": 0.2,
+    "alpha": 1e-06,
+    "auto_y_transform": true,
+    "y_ratio_threshold": 1000.0,
+    "suppress_gp_warnings": true,
+    "global_n": 262144,
+    "global_sampler": "sobol",
+    "strict_sobol": false,
+    "top_n": 1000
+  },
+  "model_settings": {
+    "bootstrap_runs": 100,
+    "bootstrap_sample_size": 19,
+    "seed": 100,
+    "kernel": "matern",
+    "matern_nu": 1.5,
+    "length_init": "auto(vec)",
+    "length_bounds": [
+      0.01418632826504788,
+      5.674531306019151
+    ],
+    "normalize_y": true,
+    "n_restarts": 10,
+    "alpha": 1e-06,
+    "xi": 0.2,
+    "global_n": 262144,
+    "global_sampler": "sobol",
+    "strict_sobol": false,
+    "top_n": 1000,
+    "y_transform": "asinh",
+    "y_transform_scale": 0.0008052225313304014,
+    "y_dynamic_range_ratio": 360606264.43703395
+  },
+  "paths": {
+    "query": "/content/Capstone-project-AI-ML-for-improving-policy-development/queries/week_10_function_1_query.csv",
+    "global_scores": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_10_function_1_global_scores.csv",
+    "top_by_ei": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_10_function_1_top_by_ei.csv",
+    "top_by_mu": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/week_10_function_1_top_by_mu.csv",
+    "plot": "/content/Capstone-project-AI-ML-for-improving-policy-development/results/plots/week_10_function_1_histogram.png"
+  }
+}

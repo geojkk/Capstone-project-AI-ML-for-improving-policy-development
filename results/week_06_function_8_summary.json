@@ -1,13 +1,13 @@
 {
   "round_id": "week_06",
   "function_id": 8,
-  "n_rows": 45,
+  "n_rows": 46,
   "dimension": 8,
   "bounds": "[0,1]^d",
-  "weekly_submission_point": "[0.011076, 0.167735, 0.049003, 0.926821, 0.915372, 0.768511, 0.006967, 0.364737]",
-  "best_ensemble_ei": 0.0019345597673404355,
-  "best_mu_model": 9.552037665434643,
-  "best_mu_original_approx": 9.552037665434643,
+  "weekly_submission_point": "[0.006096, 0.013779, 0.362062, 0.014233, 0.812165, 0.796560, 0.003126, 0.519931]",
+  "best_ensemble_ei": 0.0008458394324121882,
+  "best_mu_model": 9.746689057231718,
+  "best_mu_original_approx": 9.746689057231718,
   "config": {
     "bootstrap_runs": 100,
     "bootstrap_sample_size": null,
@@ -30,14 +30,14 @@
   },
   "model_settings": {
     "bootstrap_runs": 100,
-    "bootstrap_sample_size": 45,
+    "bootstrap_sample_size": 46,
     "seed": 800,
     "kernel": "matern",
     "matern_nu": 1.5,
     "length_init": "auto(vec)",
     "length_bounds": [
-      0.013937836109726376,
-      5.57513444389055
+      0.01474964192442545,
+      5.89985676977018
     ],
     "normalize_y": true,
     "n_restarts": 10,
@@ -49,7 +49,7 @@
     "top_n": 1000,
     "y_transform": "none",
     "y_transform_scale": 1.0,
-    "y_dynamic_range_ratio": 1.5260848652626628
+    "y_dynamic_range_ratio": 1.5248062151811854
   },
   "paths": {
     "query": "/content/Capstone-project-AI-ML-for-improving-policy-development/queries/week_06_function_8_query.csv",
